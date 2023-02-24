@@ -7,7 +7,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.util.concurrent.TimeUnit;
 
-public class PostTest {
+public class TugasGit {
     public static void main(String[] args) {
         System.setProperty("webdriver.chrome.driver", "C:\\juaracoding\\chromedriver.exe");
         WebDriver driver = new ChromeDriver();
