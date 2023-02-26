@@ -29,6 +29,7 @@ public class TestMThree {
         driver.get("https://shop.demoqa.com/my-account/");
         System.out.println("Get URL");
         driver.manage().window().maximize();
+        driver.get("https://shop.demoqa.com/shop/");
         System.out.println("Maximize Browser");
         String titleHeader = driver.findElement(className("main-header")).getText();
         System.out.println("Title Page :" + titleHeader);
@@ -44,6 +45,7 @@ public class TestMThree {
         JavascriptExecutor js = (JavascriptExecutor) driver;
         js.executeScript("window.scrollBy(0,400)");
         String txtName = driver.findElement(By.xpath("//input[@id='username']")).getText();
+        String txt
         Assert.assertTrue(txtName.contains("AnneFadia143"));
     }
 
