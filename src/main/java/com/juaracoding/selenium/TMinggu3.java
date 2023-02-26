@@ -34,7 +34,7 @@ public class TMinggu3 {
         System.out.println("scroll");
         driver.switchTo().defaultContent();
 
-        //add toCart
+        //add toCart (sepatu)
         driver.get("https://shop.demoqa.com/shop/");
         driver.findElement(By.xpath("//div[3]//div[1]//div[1]//div[2]//div[1]//div[1]//div[1]//a[1]//img[1]")).click();
         System.out.println("sow item");
